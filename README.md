@@ -1,12 +1,12 @@
 # Task list
 
 ## Enumerate the information:
-- OS version and system hostname
-- Current user privileges
-- Network configuration (IPV4, later update for IPV6)
-- Current Directory
-- Current process name and process id
-- Executable path
+- ~~OS version and system hostname~~
+- ~~Current user privileges~~
+- ~~Network configuration (IPV4, later update for IPV6)~~
+- ~~Current Directory~~
+- ~~Current process name and process id~~
+- ~~Executable path~~
 - Detect if antivirus is installed and being run
 
 ## Gain Persistence

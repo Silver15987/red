@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "red/1.0.0": {
         "dependencies": {
+          "Microsoft.Win32": "2.0.1",
+          "Microsoft.Win32.Registry": "4.3.0",
           "System.Security.Principal": "4.3.0",
           "System.Security.Principal.Windows": "4.3.0"
         },
@@ -17,11 +19,31 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Win32/2.0.1": {
+        "runtime": {
+          "lib/net5.0/Microsoft.Win32.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "Microsoft.Win32.Registry/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0"
         }
       },
       "System.Collections/4.3.0": {
@@ -185,12 +207,26 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
+    "Microsoft.Win32/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V1I3Mvj0g6YFoVywl0uoPh7fJ4y7xTewBGrW9FN70dr9LruFnC4rJ/bJ2wxIvZyeVrsj2JaqxvkuSw9fhk9UKA==",
+      "path": "microsoft.win32/2.0.1",
+      "hashPath": "microsoft.win32.2.0.1.nupkg.sha512"
+    },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "path": "microsoft.win32.primitives/4.3.0",
       "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lw1/VwLH1yxz6SfFEjVRCN0pnflLEsWgnV4qsdJ512/HhTwnKXUG+zDQ4yTO3K/EJQemGoNaBHX5InISNKTzUQ==",
+      "path": "microsoft.win32.registry/4.3.0",
+      "hashPath": "microsoft.win32.registry.4.3.0.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",

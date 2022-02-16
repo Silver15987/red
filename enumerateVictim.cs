@@ -29,7 +29,6 @@ namespace red
             using var identity = System.Security.Principal.WindowsIdentity.GetCurrent();
             var principal = new System.Security.Principal.WindowsPrincipal(identity);
             isAdmin = principal.IsInRole(System.Security.Principal.WindowsBuiltInRole.Administrator);
-            // System.Diagnostics.Debug.WriteLine("{0} {1} {2} {3} {4} {5} {6} {7}", osVersion, userName, hostName, ipv4Address, processId, processName, executablePath, isAdmin);
         }
 
     }

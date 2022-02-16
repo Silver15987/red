@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "TeeUFxU43+IbSeMm4bReZTrQY+oWuEGkToNrUOFwB1MM+MDwr0H3FnHVbGrHLJirtRz/vHXmPrYDuynNE/UT1w==",
+  "dgSpecHash": "QB594Gg/HHt1zkO7mX2/CZWzXVESCah4ANd8sBwIoDMtmZf0ZgOqnN7jFaTOqC6XAM/DEgU0Yk1XEvpzAphDdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
+  "projectFilePath": "c:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\microsoft.win32\\2.0.1\\microsoft.win32.2.0.1.nupkg.sha512",
     "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
     "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",

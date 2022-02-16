@@ -20,6 +20,15 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Win32/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Win32.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Win32.dll": {}
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -29,6 +38,32 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Collections/4.3.0": {
@@ -290,6 +325,21 @@
         "runtime.json"
       ]
     },
+    "Microsoft.Win32/2.0.1": {
+      "sha512": "V1I3Mvj0g6YFoVywl0uoPh7fJ4y7xTewBGrW9FN70dr9LruFnC4rJ/bJ2wxIvZyeVrsj2JaqxvkuSw9fhk9UKA==",
+      "type": "package",
+      "path": "microsoft.win32/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Win32.dll",
+        "lib/net40/Microsoft.Win32.xml",
+        "lib/net5.0/Microsoft.Win32.dll",
+        "lib/net5.0/Microsoft.Win32.xml",
+        "microsoft.win32.2.0.1.nupkg.sha512",
+        "microsoft.win32.nuspec"
+      ]
+    },
     "Microsoft.Win32.Primitives/4.3.0": {
       "sha512": "9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "type": "package",
@@ -326,6 +376,36 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.3.0": {
+      "sha512": "Lw1/VwLH1yxz6SfFEjVRCN0pnflLEsWgnV4qsdJ512/HhTwnKXUG+zDQ4yTO3K/EJQemGoNaBHX5InISNKTzUQ==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "microsoft.win32.registry.4.3.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netcore50/_._",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll"
       ]
     },
     "System.Collections/4.3.0": {
@@ -1449,6 +1529,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.Win32 >= 2.0.1",
+      "Microsoft.Win32.Registry >= 4.3.0",
       "System.Security.Principal >= 4.3.0",
       "System.Security.Principal.Windows >= 4.3.0"
     ]
@@ -1459,11 +1541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
+      "projectUniqueName": "c:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
       "projectName": "red",
-      "projectPath": "C:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
+      "projectPath": "c:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
       "packagesPath": "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\obj\\",
+      "outputPath": "c:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pratiman Joshi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1490,6 +1572,14 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.Win32": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.Win32.Registry": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
           "System.Security.Principal": {
             "target": "Package",
             "version": "[4.3.0, )"

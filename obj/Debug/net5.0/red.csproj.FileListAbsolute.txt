@@ -14,3 +14,5 @@ C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.dll
 C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\ref\red.dll
 C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.pdb
 C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.genruntimeconfig.cache
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\bin\Debug\net5.0\Microsoft.Win32.dll
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.csproj.CopyComplete

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj": {}
+    "c:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj": {
+    "c:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
+        "projectUniqueName": "c:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
         "projectName": "red",
-        "projectPath": "C:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
+        "projectPath": "c:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\red.csproj",
         "packagesPath": "C:\\Users\\Pratiman Joshi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\obj\\",
+        "outputPath": "c:\\Users\\Pratiman Joshi\\OneDrive\\Desktop\\red\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pratiman Joshi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.Win32": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "System.Security.Principal": {
               "target": "Package",
               "version": "[4.3.0, )"
