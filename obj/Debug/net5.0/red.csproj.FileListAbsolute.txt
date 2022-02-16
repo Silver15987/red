@@ -1,0 +1,16 @@
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.csprojAssemblyReference.cache
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.AssemblyInfoInputs.cache
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.AssemblyInfo.cs
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.csproj.CoreCompileInputs.cache
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\bin\Debug\net5.0\red.exe
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\bin\Debug\net5.0\red.deps.json
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\bin\Debug\net5.0\red.runtimeconfig.json
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\bin\Debug\net5.0\red.runtimeconfig.dev.json
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\bin\Debug\net5.0\red.dll
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\bin\Debug\net5.0\ref\red.dll
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\bin\Debug\net5.0\red.pdb
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.dll
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\ref\red.dll
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.pdb
+C:\Users\Pratiman Joshi\OneDrive\Desktop\red\obj\Debug\net5.0\red.genruntimeconfig.cache
